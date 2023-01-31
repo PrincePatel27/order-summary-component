@@ -79,7 +79,7 @@ h3{
     color: hsl(224deg, 23%, 55%);
     padding: 0.95rem 2.5rem;
     border-radius: 0.7rem;
-    background-color: beige;
+    background-color:hsl(0deg, 0%, 100%);
     text-decoration: none;
 }
 .attribution {
