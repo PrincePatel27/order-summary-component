@@ -1,27 +1,26 @@
-body{
+*{
     font-family: "Red Hat Display", sans-serif;
     font-size: 1rem;
-    color: hsl(224deg, 23%, 55%);
+}
+body{
+    background-color:hsl(225, 100%, 94%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 100vh;
     padding: 1rem 1.55rem;
-    background: hsl(225deg, 100%, 94%)
 }
 .contanier{
     background-color:hsl(0deg, 0%, 100%);
-    border-radius: 1rem;
+    border-radius: 1rem; 
     width: 400px;
     height: 650px;
 }
 .illustion-image{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    width: 400px;
-    
+    width: 400px;  
 }
 .card-contanier{
     padding: 1.5rem;
@@ -37,8 +36,9 @@ h3{
     color: hsl(223deg, 47%, 23%);
 }
 .description{
+    color:hsl(224deg, 23%, 55%);
     line-height: 1.5rem;
-    margin: 1rem;  
+    margin: 3%;  
 }
 .card-change{
     text-decoration: none;
@@ -73,15 +73,14 @@ h3{
 }
 .btn-secondary{
     display: block;
-    margin: 1rem 1rem 0.5rem 0.4rem;
-    width: 85%;
+    margin: 2%;
+    width: 73%;
     font-weight: 700;
-    color:hsl(224deg, 23%, 55%);    
-    padding: 0.95rem 1.5rem;
+    color: hsl(224deg, 23%, 55%);
+    padding: 0.95rem 2.5rem;
     border-radius: 0.7rem;
-    background-color:hsl(0deg, 0%, 100%);
+    background-color: beige;
     text-decoration: none;
-    
 }
 .attribution {
     font-size: 11px;
